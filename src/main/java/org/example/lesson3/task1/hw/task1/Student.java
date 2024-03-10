@@ -17,6 +17,7 @@ public class Student {
         UserData userData = new UserData(
                 "Ivan",18,20);
 
+
         FileOutputStream fileOutputStream = new FileOutputStream("userbata.bin");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(userData);

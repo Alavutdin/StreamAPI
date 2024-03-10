@@ -7,6 +7,7 @@ public class UserData implements Serializable {
     private int age;
     transient double GPA;
 
+
     public UserData(String name, int age, double GPA) {
         this.name = name;
         this.age = age;
